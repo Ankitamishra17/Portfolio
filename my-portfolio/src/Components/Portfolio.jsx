@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../assets/portfolio/img1.png"
+import reverse_string from "../assets/portfolio/reverse_string.jpeg"
 import img2 from "../assets/portfolio/img2.png"
 import img3 from "../assets/portfolio/img3.png"
 import img4 from "../assets/portfolio/img4.png"
@@ -9,7 +9,7 @@ const Portfolio = () => {
 
     const portfolios=[
         {
-            id : 1, src:img1
+            id : 1, src:reverse_string
         },
         {
             id : 2, src:img2
