@@ -1,42 +1,12 @@
 import React from "react";
-import reverse_string from "../assets/portfolio/reverse_string.jpeg";
-import reverse from "../assets/portfolio/reverse.jpg";
-import translator from "../assets/portfolio/translator.png";
-import netflix from "../assets/portfolio/netflix.jpg";
-import img5 from "../assets/portfolio/img5.png";
-import img6 from "../assets/portfolio/img6.png";
+import { ports} from "../constants/portfolio";
+
 const Portfolio = () => {
-  const portfolios = [
-    {
-      id: 1,
-      src: reverse_string,
-    },
-    {
-      id: 2,
-      src: reverse,
-    },
-    {
-      id: 3,
-      src: translator,
-    },
-    {
-      id: 4,
-      src: netflix,
-    },
-    {
-      id: 5,
-      src: img5,
-    },
-    {
-      id: 6,
-      src: img6,
-    },
-  ];
   return (
     <div
       name=" portfolio"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
-    >
+     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col  justify-center  w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -47,7 +17,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {ports.map(({ id, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}

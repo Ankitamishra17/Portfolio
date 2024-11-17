@@ -29,7 +29,6 @@ export const techs = [
     id: 4,
     src: react,
     title: "React",
-
     style: "shadow-blue-600",
   },
   {
