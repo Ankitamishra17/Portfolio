@@ -1,11 +1,11 @@
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import JavaScript from "../assets/JavaScript.png";
-import python from "../assets/python.png";
-import react from "../assets/react.png";
-import tailwind from "../assets/tailwind.png";
-import Bootstrap from "../assets/Bootstrap.png";
-import django from "../assets/django.png";
+import html from "../../assets/html.png";
+import css from "../../assets/css.png";
+import JavaScript from "../../assets/JavaScript.png";
+import python from "../../assets/python.png";
+import react from "../../assets/react.png";
+import tailwind from "../../assets/tailwind.png";
+import Bootstrap from "../../assets/Bootstrap.png";
+import django from "../../assets/django.png";
 export const techs = [
   {
     id: 1,

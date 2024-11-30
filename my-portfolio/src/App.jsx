@@ -1,11 +1,11 @@
-import Home from "./Components/Home";
- import About from "./Components/About";
- import Portfolio from "./Components/Portfolio";
-import NavBar from "./Components/NavBar";
- import SocialLinks from "./Components/SocialLinks";
- import Experience from "./Components/Experience";
-  import Contact from "./Components/Contact";
- import Footer from "./Components/Footer";
+import Home from "./Components/pages/Home";
+ import About from "./Components/pages/About";
+ import Portfolio from "./Components/pages/Portfolio";
+import NavBar from "./Components/pages/NavBar";
+ import SocialLinks from "./Components/pages/SocialLinks";
+ import Experience from "./Components/pages/Experience";
+  import Contact from "./Components/pages/Contact";
+ import Footer from "./Components/pages/Footer";
 
 function App() {
   return (

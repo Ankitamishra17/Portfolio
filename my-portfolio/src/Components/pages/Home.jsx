@@ -1,5 +1,6 @@
 import React from 'react';
-import heroImage from '../assets/heroImage.jpeg';
+// import heroImage from '../assets/heroImage.jpeg';
+import heroImage from '../../assets/heroImage.jpeg';
 import { MdArrowRightAlt } from "react-icons/md";
 
 export const Home = () => {
