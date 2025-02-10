@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        
+
         <div className="flex justify-center items-center">
           <form
             action="https://getform.io/f/bejydwla"
