@@ -20,3 +20,27 @@
   box-sizing:border-box;
   
 }
+
+
+/* Add this to your global stylesheet or a separate CSS file */
+@keyframes rotate3d {
+  0% {
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  25% {
+    transform: rotate3d(1, 0, 0, 90deg);
+  }
+  50% {
+    transform: rotate3d(1, 1, 0, 180deg);
+  }
+  75% {
+    transform: rotate3d(1, 0, 0, 270deg);
+  }
+  100% {
+    transform: rotate3d(1, 1, 0, 360deg);
+  }
+}
+
+.animate-rotate3d {
+  animation: rotate3d 15s infinite linear;
+}
