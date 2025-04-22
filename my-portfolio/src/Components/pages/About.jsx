@@ -12,16 +12,17 @@ const About = () => {
                 </div>
 
                 <p className="text-xl mt-20 text-white">
-                An inquisitive, enthusiastic Computer Science undergrad, skilled in Full Stack Development with a stronghold on Data Structures and Algorithms.
-                 Working towards leveraging solid development skills into building useful products and user experiences.
-                  Exploring and working my way up, one step at a time!
-                    I love to read and write. 
+                
+                    I'm Ankita, a Passionate Student Pursuing a Bachelor of Technology (B.Tech) Degree in Information Technology from Chaudhary Charan Singh University Meerut.
+                    I have a Deep Interest in Exploring the Fascinating World Of Technology and Its Applications.<br></br><br></br>
+                    I am Constantly Driven to Enhance my Skills and Knowledge in Programming, Algorithms, and Software development.
                 </p>
 
                 <br/>
 
                 <p className="text-xl">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
+                Looking for opportunities to collaborate, intern, or contribute to real-world projects — let’s
+                 build something awesome together!
                      
                 </p>
             </div>

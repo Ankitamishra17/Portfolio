@@ -10,7 +10,7 @@ export const Home = () => {
         
         {/* Left Section */}
         <div className='flex flex-col justify-center h-full mt-8 md:mt-0'>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white">I'm a Frontend Developer</h2>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-5xl font-bold text-white">I'm a Frontend Developer</h2>
           <p className="text-gray-500 py-4 max-w-md text-sm md:text-base lg:text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
           </p>
