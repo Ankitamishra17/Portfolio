@@ -12,19 +12,23 @@ export const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center h-full justify-center px-4 relative z-10">
         
         {/* Left Section */}
-        <div className='flex flex-col justify-center h-full mt-8 md:mt-0'>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-5xl font-bold text-white">I'm a Frontend Developer</h2>
-          <p className="text-gray-500 py-4 max-w-md text-sm md:text-base lg:text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+        <div className='flex flex-col justify-center h-full  w-full mt-8 md:mt-0'>
+          <p></p>
+          <h2 className="text-4xl sm:text-5xl md:text-4xl lg:text-5xl font-bold text-white">I'm a Ankita Mishra</h2>
+          <p className="text-gray-500 py-4 max-w-md text-sm md:text-base lg:text-3xl">
+           Frontend Developer
           </p>
           <div>
-            <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer transition-transform duration-300">
-             Hire me
-              <span className="group-hover:rotate-90 duration-300">
-                <MdArrowRightAlt size={25} className="ml-1" />
-              </span>
-            </button>
+          <a href='#Contact'>
+              <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer transition-transform duration-300">
+              Hire me
+                <span className="group-hover:rotate-90 duration-300">
+                  <MdArrowRightAlt size={25} className="ml-1" />
+                </span>
+              </button>
+            </a>
           </div>
+         
         </div>
 
         {/* Right Section */}
