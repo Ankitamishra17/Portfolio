@@ -6,6 +6,7 @@ import NavBar from "./Components/pages/NavBar";
  import Experience from "./Components/pages/Experience";
   import Contact from "./Components/pages/Contact";
  import Footer from "./Components/pages/Footer";
+ 
 
 function App() {
   return (

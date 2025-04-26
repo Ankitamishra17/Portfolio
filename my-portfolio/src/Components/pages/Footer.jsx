@@ -1,19 +1,19 @@
-import React from 'react'
-
 const Footer = () => {
-  return (
-    <>
-        <div class="px-12 lg:px-8 py-3 flex flex-col  sm:flex-row bg-gradient-to-b from-gray-800 to-black w-full justify-center sm:justify-center items-center gap-4 sm:gap-32" >
-            <div class="flex flex-col items-center sm:items-center">
-                {/* <img src={ky} className='h-20 w-25 pl-6 sm:pl-12' alt='khushi'/> */}
-                <p class="mt-4 text-white text-xs sm:text-sm font-semibold ">&copy; 2024 Ankita Mishra all right reserved</p>
+    return (
+      <>
+        <div className="relative overflow-hidden bg-gradient-to-b from-gray-800 to-black w-full">
+          {/* 3D animated background */}
+          <div className="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-30 z-0 animate-rotate3d"></div>
+  
+          <div className="px-12 lg:px-8 py-3 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-32 relative z-10">
+            <div className="flex flex-col items-center">
+              <p className="mt-4 text-white text-xs sm:text-sm font-semibold">
+                &copy; 2024 Ankita Mishra all rights reserved
+              </p>
             </div>
-            <div>
-                {/* <LikeButton /> */}
-            </div>
+          </div>
         </div>
-        </>
-  )
-}
-
-export default Footer
+      </>
+    );
+  };
+  export default Footer;
