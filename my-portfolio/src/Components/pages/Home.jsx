@@ -4,7 +4,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 
 export const Home = () => {
   return (
-    <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 relative overflow-hidden">
+    <div name="home" className=" bg-white text-black dark:bg-black dark:text-white h-screen w-full bg-gradient-to-b -relative overflow-hidden">
       {/* 3D background */}
       
       <div className="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-30 z-0 animate-rotate3d"></div>

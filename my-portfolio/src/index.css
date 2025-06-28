@@ -44,3 +44,19 @@
 .animate-rotate3d {
   animation: rotate3d 15s infinite linear;
 }
+
+/* index.css */
+
+body.dark-theme {
+  background-color: #0f172a; /* dark background */
+  color: white;
+}
+
+body.light-theme {
+  background-color: #ffffff; /* light background */
+  color: #1e293b; /* Tailwind slate-800 */
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

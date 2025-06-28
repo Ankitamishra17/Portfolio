@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full py-20 relative overflow-hidden"
+      className="bg-gradient-to-b bg-white text-black dark:bg-black dark:text-white  w-full py-20 relative overflow-hidden"
     >
       {/* 3D background */}
       <div className="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-30 z-0 animate-rotate3d"></div>
