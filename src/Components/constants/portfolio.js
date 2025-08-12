@@ -3,7 +3,7 @@ import reverse_string from "../../assets/portfolio/reverse_string.jpg";
 import translator from "../../assets/portfolio/translator.png";
 import netflix from "../../assets/portfolio/netflix.jpg";
 import nspay from "../../assets/portfolio/nspay.png";
-import whatsapp from "../../assets/portfolio/whatsapp.png";
+import whatsapp from "../../assets/portfolio/whats.png";
 
 export const ports = [
   {
@@ -38,7 +38,7 @@ export const ports = [
   },
   {
     id: 6,
-    src: whatsapp,
+    src: whatsapp ,
     demo: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
     code: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
   },
