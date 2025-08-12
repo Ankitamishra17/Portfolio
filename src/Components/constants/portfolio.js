@@ -39,7 +39,7 @@ export const ports = [
   {
     id: 6,
     src: whatsapp,
-    demo: "https://github.com/Ankitamishra17/WhatsApp-Chat-Analyzer",
-    code: "https://github.com/Ankitamishra17/WhatsApp-Chat-Analyzer",
+    demo: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
+    code: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
   },
 ];
