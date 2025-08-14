@@ -1,4 +1,4 @@
-import img5 from "../../assets/portfolio/img5.png";
+import weather from "../../assets/portfolio/weather.png";
 import reverse_string from "../../assets/portfolio/reverse_string.jpg";
 import translator from "../../assets/portfolio/translator.png";
 import netflix from "../../assets/portfolio/netflix.jpg";
@@ -8,9 +8,9 @@ import whatsapp from "../../assets/portfolio/whats.png";
 export const ports = [
   {
     id: 1,
-    src: img5,
-    demo: "https://stopwatch-ankita.netlify.app/",
-    code: "https://github.com/Ankitamishra17/StopWatch",
+    src: weather,
+    demo: "https://weather-application-lime-eta.vercel.app/",
+    code: "https://github.com/Ankitamishra17/Weather_Application",
   },
   {
     id: 2,
