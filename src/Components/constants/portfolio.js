@@ -2,6 +2,7 @@ import weather from "../../assets/portfolio/weather.png";
 import reverse_string from "../../assets/portfolio/reverse_string.jpg";
 import translator from "../../assets/portfolio/translator.png";
 import netflix from "../../assets/portfolio/netflix.jpg";
+import imagefinder from "../../assets/portfolio/imagefinder.png";
 import nspay from "../../assets/portfolio/nspay.png";
 import whatsapp from "../../assets/portfolio/whats.png";
 
@@ -26,20 +27,39 @@ export const ports = [
   },
   {
     id: 4,
+    src: translator,
+    demo: "https://stopwatch-ankita.netlify.app/",
+    code: "https://github.com/Ankitamishra17/StopWatch",
+  },
+  {
+    id: 5,
     src: netflix,
     demo: "https://github.com/Ankitamishra17/Temperature_converter",
     code: "https://github.com/Ankitamishra17/WhatsApp-Chat-Analyzer",
   },
   {
-    id: 5,
+    id: 6,
+    src: imagefinder,
+    demo: "https://image-finder-rose-eight.vercel.app/",
+    code: "https://github.com/Ankitamishra17/Image_finder",
+  },
+  {
+    id: 7,
     src: nspay,
     demo: "https://nspay.vercel.app/",
     code: "https://github.com/Ankitamishra17/NsPay",
   },
   {
-    id: 6,
+    id: 8,
     src: whatsapp ,
     demo: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
     code: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
   },
+  {
+    id: 9,
+    src: whatsapp ,
+    demo: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
+    code: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
+  },
+  
 ];
