@@ -1,6 +1,7 @@
 import weather from "../../assets/portfolio/weather.png";
 import reverse_string from "../../assets/portfolio/reverse_string.jpg";
 import translator from "../../assets/portfolio/translator.png";
+import portfolio from "../../assets/portfolio/portfolio.png";
 import netflix from "../../assets/portfolio/netflix.jpg";
 import imagefinder from "../../assets/portfolio/imagefinder.png";
 import nspay from "../../assets/portfolio/nspay.png";
@@ -21,9 +22,9 @@ export const ports = [
   },
   {
     id: 3,
-    src: translator,
-    demo: "https://stopwatch-ankita.netlify.app/",
-    code: "https://github.com/Ankitamishra17/StopWatch",
+    src: portfolio,
+    demo: "https://ankita-mishra-portfolio.netlify.app/",
+    code: "https://github.com/Ankitamishra17/Portfolio",
   },
   {
     id: 4,

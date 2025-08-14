@@ -22,10 +22,11 @@ const Portfolio = () => {
           {ports.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
-                src={src}
-                alt="images"
-                className="rounded-md duration-200 hover:scale-105  h-48 w-full object-cover"
-              />
+                  src={src}
+                  alt="images"
+                  className="rounded-md duration-200 hover:scale-105 w-full h-48 object-cover"
+               />
+
               <div className="flex items-center justify-center ">
                 <a
                   href={demo}
