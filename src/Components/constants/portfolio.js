@@ -6,6 +6,7 @@ import netflix from "../../assets/portfolio/netflix.jpg";
 import imagefinder from "../../assets/portfolio/imagefinder.png";
 import nspay from "../../assets/portfolio/nspay.png";
 import whatsapp from "../../assets/portfolio/whats.png";
+import object from "../../assets/portfolio/object.png";
 
 export const ports = [
   {
@@ -58,9 +59,9 @@ export const ports = [
   },
   {
     id: 9,
-    src: whatsapp ,
-    demo: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
-    code: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
+    src: object,
+    demo: "https://real-time-object-detection-web-app-ivory.vercel.app/",
+    code: "https://github.com/Ankitamishra17/real-time-object-detection-web-app",
   },
   
 ];

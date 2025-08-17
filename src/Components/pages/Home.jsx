@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import heroImage from '../../assets/heroImage.jpeg';
 import { MdArrowRightAlt } from "react-icons/md";
 
+
 export const Home = () => {
   const roles = ["Frontend Developer", "UI Designer", "Web Creator"];
   const [index, setIndex] = useState(0);
