@@ -6,6 +6,8 @@ import react from "../../assets/react.png";
 import tailwind from "../../assets/tailwind.png";
 import bootstrap from "../../assets/bootstrap.png";
 import django from "../../assets/django.png";
+import sql from "../../assets/sql.png";
+
 export const techs = [
   {
     id: 1,
@@ -54,5 +56,11 @@ export const techs = [
     src: django,
     title: "Django",
     style: "shadow-green-500",
+  },
+  {
+    id: 9,
+    src: sql,
+    title: "SQL",
+    style: "shadow-orange-500",
   },
 ];

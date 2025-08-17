@@ -1,8 +1,8 @@
 import weather from "../../assets/portfolio/weather.png";
 import reverse_string from "../../assets/portfolio/reverse_string.jpg";
-import translator from "../../assets/portfolio/translator.png";
+import stopwatch from "../../assets/portfolio/stopwatch.png";
 import portfolio from "../../assets/portfolio/portfolio.png";
-import netflix from "../../assets/portfolio/netflix.jpg";
+import texteditor from "../../assets/portfolio/texteditor.png";
 import imagefinder from "../../assets/portfolio/imagefinder.png";
 import nspay from "../../assets/portfolio/nspay.png";
 import whatsapp from "../../assets/portfolio/whats.png";
@@ -29,15 +29,15 @@ export const ports = [
   },
   {
     id: 4,
-    src: translator,
+    src: stopwatch,
     demo: "https://stopwatch-ankita.netlify.app/",
     code: "https://github.com/Ankitamishra17/StopWatch",
   },
   {
     id: 5,
-    src: netflix,
-    demo: "https://github.com/Ankitamishra17/Temperature_converter",
-    code: "https://github.com/Ankitamishra17/WhatsApp-Chat-Analyzer",
+    src: texteditor,
+    demo: "https://text-editor-17.netlify.app/",
+    code: "https://github.com/Ankitamishra17/text-editor",
   },
   {
     id: 6,
