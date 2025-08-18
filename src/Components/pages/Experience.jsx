@@ -9,7 +9,7 @@ const Experience = () => {
     >
       {/* 3D background */}
       <div className="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-30 z-0 animate-rotate3d"></div>
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white relative z-10">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black dark:text-white relative z-10">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 pt-12 inline mt-8 ">
             Experience

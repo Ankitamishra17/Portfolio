@@ -36,7 +36,7 @@ export const Home = () => {
           </h2>
           
           {/* Rotating Role Text */}
-          <p className="text-cyan-300 py-4 max-w-md text-sm md:text-base lg:text-3xl font-light transition-opacity duration-700">
+          <p className="text-cyan-300 py-4 max-w-md text-2xl md:text-3xl lg:text-4xl font-light transition-opacity duration-700">
             {roles[index]}
           </p>
 
@@ -57,7 +57,7 @@ export const Home = () => {
           <img 
             src={heroImage} 
             alt="my profile" 
-            className="rounded-2xl mx-auto w-3/4 h-auto md:w-1/2 shadow-lg shadow-blue-500/30"
+            className="rounded-full mx-auto w-40 h-40 md:w-60 md:h-60 object-cover shadow-lg shadow-blue-500/30"
           />
         </div>
       </div>

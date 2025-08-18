@@ -7,7 +7,7 @@ const Footer = () => {
   
           <div className="px-12 lg:px-8 py-3 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-32 relative z-10">
             <div className="flex flex-col items-center">
-              <p className="mt-4 text-white text-xs sm:text-sm font-semibold">
+              <p className="mt-4 text-black dark:text-white text-xs sm:text-sm font-semibold">
                 &copy; 2024 Ankita Mishra all rights reserved
               </p>
             </div>

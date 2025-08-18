@@ -4,7 +4,7 @@ import SocialLinks from "./Components/SocialLinks";
 
 function App() {
   return (
-    <div>
+    <div >
       <NavBar/>
       <Home/>
       <SocialLinks/>
