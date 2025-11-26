@@ -1,6 +1,6 @@
 import weather from "../../assets/portfolio/weather.png";
-import reverse_string from "../../assets/portfolio/reverse_string.jpg";
-import stopwatch from "../../assets/portfolio/stopwatch.png";
+import foodfinder from "../../assets/portfolio/foodfinder.png";
+import recipeIdeas from "../../assets/portfolio/recipeIdeas.png";
 import portfolio from "../../assets/portfolio/portfolio.png";
 import texteditor from "../../assets/portfolio/texteditor.png";
 import imagefinder from "../../assets/portfolio/imagefinder.png";
@@ -17,9 +17,9 @@ export const ports = [
   },
   {
     id: 2,
-    src: reverse_string,
-    demo: "https://reverse-string-8.netlify.app/",
-    code: "https://github.com/Ankitamishra17/ReverseString",
+    src: foodfinder,
+    demo: "https://github.com/Ankitamishra17/Food_Finder_Web_App",
+    code: "https://food-finder-web-app.vercel.app/",
   },
   {
     id: 3,
@@ -29,9 +29,9 @@ export const ports = [
   },
   {
     id: 4,
-    src: stopwatch,
-    demo: "https://stopwatch-ankita.netlify.app/",
-    code: "https://github.com/Ankitamishra17/StopWatch",
+    src: recipeIdeas,
+    demo: "https://recipe-ideas-lebkuchen-de0037.netlify.app/",
+    code: "https://github.com/Ankitamishra17/Recipe-Ideas",
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ export const ports = [
   },
   {
     id: 8,
-    src: whatsapp ,
+    src: whatsapp,
     demo: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
     code: "https://github.com/Ankitamishra17/Whatsapp-chat-analyzer",
   },
@@ -63,5 +63,4 @@ export const ports = [
     demo: "https://real-time-object-detection-web-app-ivory.vercel.app/",
     code: "https://github.com/Ankitamishra17/real-time-object-detection-web-app",
   },
-  
 ];

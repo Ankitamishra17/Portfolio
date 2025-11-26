@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import heroImage from '../../assets/heroImage.jpeg';
+import { useState, useEffect } from "react";
+import heroImage from "../../assets/heroImage.jpeg";
 import { MdArrowRightAlt } from "react-icons/md";
-
+import { Link } from "react-scroll";
 
 export const Home = () => {
   const roles = ["Frontend Developer", "UI Designer", "Web Creator"];
@@ -10,7 +10,7 @@ export const Home = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % roles.length);
-    }, 2000); // Change text every 2 seconds
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
@@ -28,35 +28,34 @@ export const Home = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-30 z-0 animate-rotate3d"></div>
 
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center h-full justify-center px-4 relative z-10">
-        
         {/* Left Section */}
-        <div className='flex flex-col justify-center h-full w-full mt-8 md:mt-0 animate-fadeInUp'>
+        <div className="flex flex-col justify-center h-full w-full mt-8 md:mt-0 animate-fadeInUp">
           <h2 className="text-4xl sm:text-5xl md:text-4xl lg:text-5xl font-bold text-white">
             I'm Ankita Mishra
           </h2>
-          
+
           {/* Rotating Role Text */}
           <p className="text-cyan-300 py-4 max-w-md text-2xl md:text-3xl lg:text-4xl font-light transition-opacity duration-700">
             {roles[index]}
           </p>
 
           <div>
-            <a href='#Contact'>
+            <Link to="contact" smooth duration={500}>
               <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer transition-transform duration-300 hover:scale-105 shadow-lg shadow-cyan-500/50">
                 Hire me
                 <span className="group-hover:rotate-90 duration-300">
                   <MdArrowRightAlt size={25} className="ml-1" />
                 </span>
               </button>
-            </a>
+            </Link>
           </div>
         </div>
 
         {/* Right Section - Floating Image */}
         <div className="mt-8 md:mt-0 animate-float">
-          <img 
-            src={heroImage} 
-            alt="my profile" 
+          <img
+            src={heroImage}
+            alt="my profile"
             className="rounded-full mx-auto w-40 h-40 md:w-60 md:h-60 object-cover shadow-lg shadow-blue-500/30"
           />
         </div>

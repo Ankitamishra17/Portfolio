@@ -4,7 +4,7 @@ import { techs } from "../constants/experience";
 const Experience = () => {
   return (
     <div
-      name="experience"
+      name="skills"
       className="bg-gradient-to-b bg-white text-black dark:bg-black dark:text-white  w-full py-20 relative overflow-hidden"
     >
       {/* 3D background */}
@@ -12,7 +12,7 @@ const Experience = () => {
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black dark:text-white relative z-10">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 pt-12 inline mt-8 ">
-            Experience
+            Skills
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>

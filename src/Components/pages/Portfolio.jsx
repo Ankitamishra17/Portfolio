@@ -4,7 +4,7 @@ import { ports } from "../constants/portfolio";
 const Portfolio = () => {
   return (
     <div
-      name="portfolio"
+      name="projects"
       className="bg-gradient-to-b bg-white text-black dark:bg-black dark:text-white py-20 relative overflow-hidden"
     >
       {/* 3D background */}
@@ -13,7 +13,7 @@ const Portfolio = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full relative z-10">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            My Porojects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
@@ -22,10 +22,10 @@ const Portfolio = () => {
           {ports.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
-                  src={src}
-                  alt="images"
-                  className="rounded-md duration-200 hover:scale-105 w-full h-48 object-fit"
-               />
+                src={src}
+                alt="images"
+                className="rounded-md duration-200 hover:scale-105 w-full h-48 object-fit"
+              />
 
               <div className="flex items-center justify-center ">
                 <a
