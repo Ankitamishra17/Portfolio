@@ -2,7 +2,7 @@ import weather from "../../assets/portfolio/weather.png";
 import foodfinder from "../../assets/portfolio/foodfinder.png";
 import recipeIdeas from "../../assets/portfolio/recipeIdeas.png";
 import portfolio from "../../assets/portfolio/portfolio.png";
-import texteditor from "../../assets/portfolio/texteditor.png";
+import blogApp from "../../assets/portfolio/blogApp.png";
 import imagefinder from "../../assets/portfolio/imagefinder.png";
 import nspay from "../../assets/portfolio/nspay.png";
 import whatsapp from "../../assets/portfolio/whats.png";
@@ -35,9 +35,9 @@ export const ports = [
   },
   {
     id: 5,
-    src: texteditor,
-    demo: "https://text-editor-17.netlify.app/",
-    code: "https://github.com/Ankitamishra17/text-editor",
+    src: blogApp,
+    demo: "https://ai-blog-platform-seven.vercel.app/",
+    code: "https://github.com/Ankitamishra17/ai-blog-platform",
   },
   {
     id: 6,

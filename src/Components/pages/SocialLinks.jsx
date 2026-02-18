@@ -26,7 +26,7 @@ const SocialLinks = () => {
     {
       id: 4,
       icon: <BsFillPersonLinesFill size={25} />,
-      href: "/resume.pdf",
+      href: "/Resume.pdf",
       label: "Resume",
       download: true,
     },

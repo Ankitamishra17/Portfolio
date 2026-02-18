@@ -1,7 +1,7 @@
 import React from "react";
-import { techs } from "../constants/experience";
+import { techs } from "../constants/skill";
 
-const Experience = () => {
+const Skill = () => {
   return (
     <div
       name="skills"
@@ -33,4 +33,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skill;
