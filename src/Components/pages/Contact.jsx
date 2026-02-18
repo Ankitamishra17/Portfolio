@@ -17,7 +17,6 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-6">
-            I am interested in Internship and Full-time opportunities.
             Reach me out for collaboration on projects,
             job opportunities or just a fun conversation. <br />
             I'd love to hear from you!
