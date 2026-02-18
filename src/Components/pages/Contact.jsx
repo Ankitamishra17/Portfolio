@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const Contact = () => {
@@ -17,9 +16,9 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-6">
-            Reach me out for collaboration on projects,
-            job opportunities or just a fun conversation. <br />
-            I'd love to hear from you!
+            If you have any questions or concerns, please don't hesitate to
+            contact me. I am open to any work opportunities that align with my
+            skills and interests.
           </p>
         </div>
 
@@ -60,4 +59,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
