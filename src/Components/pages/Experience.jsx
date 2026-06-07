@@ -8,7 +8,7 @@ const experiences = [
     role: "Full Stack Developer",
     company: "Debox Technology",
     duration: "April 2026 - Present",
-    desc:"I'm currently working as a full-stack developer. My stack includes React.js, Next.js, Node.js, Redux TypeScript, Javascript Tailwind, SCSS, ORM, Postgres SQL and MongoDB. I'm open to new and exciting opportunities too."  },
+    desc:"I'm currently working as a full-stack developer. My stack includes React.js, Next.js, Node.js, Redux, TypeScript, Javascript Tailwind, SCSS, ORM, Postgres SQL and MongoDB. I'm open to new and exciting opportunities too."  },
   {
     id: 2,
     role: "Frontend Developer",
