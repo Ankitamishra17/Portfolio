@@ -6,6 +6,7 @@ import SocialLinks from "./Components/pages/SocialLinks";
 import Skill from "./Components/pages/Skill";
 import Contact from "./Components/pages/Contact";
 import Footer from "./Components/pages/Footer";
+import Experience from "./Components/pages/Experience.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <Home />
       <About />
+      <Experience />
       <Portfolio />
       <Skill />
       <Contact />

@@ -17,11 +17,24 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20 text-black dark:text-white">
-          I'm Ankita Mishra, a B.Tech graduate in Information Technology from
-          Chaudhary Charan Singh University, Meerut. I have successfully
-          completed a 6-month internship in Frontend Development where I gained
-          hands-on experience building responsive and scalable web applications
-          using React.js, JavaScript (ES6+), HTML, and CSS.
+          Hi, I'm Ankita Mishra, a Full Stack Developer with a B.Tech degree in
+          Information Technology and a passion for building modern, scalable,
+          and user-centric web applications. <br /> I specialize in React.js,
+          Next.js, Node.js, Express.js, MongoDB, MySQL, and JavaScript, with
+          experience developing both frontend interfaces and backend systems. I
+          enjoy transforming ideas into real-world digital products that deliver
+          seamless user experiences and high performance. <br />
+           In addition to
+          web development, I have a strong interest in Machine Learning and
+          AI-powered applications. I enjoy exploring intelligent technologies
+          and integrating them into practical solutions that solve real-world
+          problems.  <br /> I am a continuous learner who enjoys exploring new
+          technologies, improving problem-solving skills, and staying up to date
+          with industry trends. My goal is to build innovative, impactful, and
+          scalable software solutions. <br /> I am currently seeking
+          opportunities where I can contribute my technical expertise,
+          collaborate with talented teams, and continue growing as a Software
+          Engineer.
           <br />
           <br />
           During my internship, I worked on real-world projects involving API
